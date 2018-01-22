@@ -8,9 +8,9 @@ define('BBR',5);
 
 $config = array(
     'database' => array(
-            'hostname' => 'localhost',
-            'username' => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu',
-            'password' => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu',
+            'hostname' => 'bz30eqmel5k1vyk-mongodb.services.clever-cloud.com',
+            'username' => 'uwdaqf2pxpopmcx',
+            'password' => 'i4DI77DNlgfmukt7zI7u',
             'database' => 'monero',
     ),
     'site' => array(
@@ -56,13 +56,13 @@ $config = array(
                 ),
     ),
     'user' => array(
-        'username' => array(42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu),
+        'username' => array(uwdaqf2pxpopmcx),
             // Minimum characters in username (1 or more)
             'min_length' => 3,
             // Maximum characters in username (20 is max in DB)
             'max_length' => 20,
         ), 
-        'password' => array(42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu),
+        'password' => array(i4DI77DNlgfmukt7zI7u),
             'min_length' => 6,
         ),
     ),
@@ -70,7 +70,7 @@ $config = array(
         // If set to TRUE, you will receive an e-mail for any critical errors (recommended), such as daemon stops working
         'enable_mail_notify' => TRUE,
         // E-mail to which any error notifications will be sent
-        'mail' => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu',
+        'mail' => 'knaria98@gmail.com',
     ),
     'admins' => array(
         // List all usernames here whom you'd like to assign admin access

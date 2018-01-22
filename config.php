@@ -9,8 +9,8 @@ define('BBR',5);
 $config = array(
     'database' => array(
             'hostname' => 'localhost',
-            'username' => 'root',
-            'password' => '',
+            'username' => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu',
+            'password' => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu',
             'database' => 'monero',
     ),
     'site' => array(
@@ -56,13 +56,13 @@ $config = array(
                 ),
     ),
     'user' => array(
-        'username' => array(
+        'username' => array(42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu),
             // Minimum characters in username (1 or more)
             'min_length' => 3,
             // Maximum characters in username (20 is max in DB)
             'max_length' => 20,
         ), 
-        'password' => array(
+        'password' => array(42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu),
             'min_length' => 6,
         ),
     ),
@@ -70,7 +70,7 @@ $config = array(
         // If set to TRUE, you will receive an e-mail for any critical errors (recommended), such as daemon stops working
         'enable_mail_notify' => TRUE,
         // E-mail to which any error notifications will be sent
-        'mail' => 'your@email.com',
+        'mail' => '42qVwU9PUEcQB126VSqeaNE2G5F3zaNQ3bFz6B2mc1PRN2bdwh97B5wWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3yDfDJu',
     ),
     'admins' => array(
         // List all usernames here whom you'd like to assign admin access
